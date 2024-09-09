@@ -9,4 +9,8 @@ image downloader can be used in two ways, by using the terminal/cmd to launch th
 *the .py file creates a folder named **images** in the directory its located in to save the images*
 
 #### note :
-when downloading images they would be saved under the name of their URL ,to preserve the artist/designer credit it should be done manually somehow as im unable to add that feature to the app for now ╯︿╰
+- the executable file currently only works on windows systems, however the .py file can be opened on any editor on other OS.
+
+- when launching the exe file a windows defender pop-up might appear preventing it from working, click on **more info** then **run anyway** , the file does not contain any malicious content this's a false positive due to the app being packed by PyInstaller (；′⌒`) i'll try to figure out a way to fix this eventually..
+
+- when downloading images they would be saved under the name of their URL ,to preserve the artist/designer credit it should be done manually somehow as im unable to add that feature to the app for now ╯︿╰
